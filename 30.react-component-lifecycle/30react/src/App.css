@@ -1,0 +1,22 @@
+.app-container { padding: 20px; font-family: sans-serif; }
+.header { display: flex; align-items: center; margin-bottom: 20px; }
+.login-btn { background: #4267B2; color: white; border: none; padding: 8px 16px; cursor: pointer; }
+.logout-btn { background: #d9534f; color: white; border: none; margin-left: 10px; padding: 5px 10px; cursor: pointer; }
+
+.product-form { display: flex; gap: 10px; align-items: center; margin-bottom: 20px; }
+.add-btn { background: #28a745; color: white; border: none; padding: 8px 12px; border-radius: 4px; }
+
+.search-input { width: 100%; padding: 8px; margin-bottom: 15px; border: 1px solid #ccc; }
+
+.product-row { 
+  display: flex; 
+  justify-content: space-between; 
+  padding: 12px; 
+  border: 1px solid #eee; 
+  margin-bottom: 5px;
+}
+
+/* Videodaki indirimli yeşil stil */
+.is-discounted { background-color: #d4edda; border-left: 5px solid #28a745; }
+
+.delete-btn { background: #dc3545; color: white; border: none; padding: 5px 10px; border-radius: 3px; cursor: pointer; }
